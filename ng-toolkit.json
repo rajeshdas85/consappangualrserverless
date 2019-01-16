@@ -1,0 +1,18 @@
+{
+  "universal": {
+    "project": "consappangualrserverless",
+    "skipInstall": false,
+    "directory": ".",
+    "http": true
+  },
+  "serverless": {
+    "provider": "aws",
+    "project": "consappangualrserverless",
+    "skipInstall": false,
+    "directory": ".",
+    "serverless": {
+      "aws": {},
+      "gcloud": {}
+    }
+  }
+}
